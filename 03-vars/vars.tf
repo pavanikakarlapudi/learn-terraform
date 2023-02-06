@@ -58,4 +58,6 @@ output "sample6" {
 
 ## Variables from tfvars
 variable "demo1" {}
-
+output "demo1" {
+  value = var.demo1
+}
