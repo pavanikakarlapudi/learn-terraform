@@ -13,3 +13,6 @@ data "aws_ami" "centos8" {
   owners      = ["973714476881"]
 }
 
+output "instance_profile" {
+  value = aws_instance.web.outpost_arn
+}
