@@ -14,17 +14,6 @@ data "aws_ami" "centos8" {
   owners      = ["973714476881"]
 }
 
-
-//output "publicip" {
-//  # without count
-//  #value = aws_instance.web.public_ip
-//
-//  # with count
-//
-//  value = {
-//    for k, v in aws_instance.web : k => v.public_ip
-//  }
-//}
-
 variable "instance_type" {}
 variable "name" {}
+

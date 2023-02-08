@@ -22,3 +22,6 @@ module "ec2" {
 ## Always iterate modules, not resources.
 ## Always map the data and use for_each loop
 
+output "publicip" {
+  value = module.ec2
+}
