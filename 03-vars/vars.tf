@@ -13,7 +13,7 @@ variable "sample1" {
 
 # Number data type
 variable "sample2" {
-  default = 100
+  default = 200
 }
 
 # Boolean Data type
