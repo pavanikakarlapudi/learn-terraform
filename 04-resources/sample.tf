@@ -16,4 +16,3 @@ resource "aws_instance" "web" {
     Name = "test-centos8"
   }
 }
-//new
